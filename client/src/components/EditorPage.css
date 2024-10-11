@@ -1,0 +1,25 @@
+/* EditorPage.css */
+
+.custom-dropdown {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace; /* Change to desired font */
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+  }
+  
+  .custom-dropdown:focus {
+    border: 1px solid #007bff;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .custom-dropdown option {
+    background-color: #333;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace; /* Change to desired font */
+    padding: 10px;
+  }
+  
